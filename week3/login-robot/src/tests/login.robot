@@ -10,7 +10,7 @@ Login With Correct Credentials
 Login With Incorrect Password
     Input Credentials  kalle  kalle12
     Output Should Contain  Invalid username or password
-    
+
 Login With Nonexistent Username
     Input Credentials  ad  kalle12
     Output Should Contain  Invalid username or password
